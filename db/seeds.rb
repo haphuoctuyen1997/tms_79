@@ -1,8 +1,8 @@
 name = Faker::Name.name
-email = "vanquang451@gmail.com"
+email = "haphuoctuyen1997@gmail.com"
 address = Faker::Address.street_address
-password = "12345678"
-password_confirmation = "12345678"
+password = "11111111"
+password_confirmation = "11111111"
 phone_number = Faker::PhoneNumber.phone_number
 role = "suppervisor"
 User.create!(name: name, email: email, address: address, password: password, password_confirmation: password_confirmation, phone_number: phone_number, role: role)
